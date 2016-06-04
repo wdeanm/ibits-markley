@@ -7,5 +7,11 @@ elfApp.controller('AboutController', function($scope) {
 
 });
 
-
+elfApp.directive('elfAboutDescription', function() {
+    'use strict';
+    return {
+        controller: 'AboutController',
+        templateUrl: 'about-controller'
+    };
+});
 

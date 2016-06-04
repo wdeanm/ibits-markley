@@ -4,8 +4,8 @@ myModule.config(function($routeProvider, $locationProvider) {
     'use strict';
 
     $routeProvider.when('/', {
-        templateUrl: 'home-page',
-        controller: 'HomeController'
+        templateUrl: 'home-page',    // what does jade look like?
+        controller: 'HomeController'  //what does js look like?
     }).when('/first', {
         templateUrl: 'first-page',
         controller: 'FirstController'
